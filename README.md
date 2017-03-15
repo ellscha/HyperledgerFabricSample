@@ -1,6 +1,9 @@
 # HyperledgerFabricSample
 0.6 ~ SDK 
 
+First thing you will need to do to make this project work for you is to either sign in or sign up to [ibm bluemix](https://console.ng.bluemix.net/). 
+
+
 
 You will need to add a file into the Resources folder and call it `config.properties`. Then paste the following snippet into the file and change the ######## into your personal bluemix account secrets.
 
@@ -8,7 +11,7 @@ You will need to add a file into the Resources folder and call it `config.proper
 
 com.atraurablockchain.chainid = testchainid
 com.atraurablockchain.chaincodename = mycc
-com.atraurablockchain.chaincodepath = github.com/example_cc
+com.atraurablockchain.chaincodepath = github.com/example_ccffff
 com.atraurablockchain.ordereraddress = grpc://localhost:7050
 com.atraurablockchain.peeraddress = ########
 com.atraurablockchain.eventhubaddress = grpc://localhost:7053
@@ -26,3 +29,5 @@ com.atraurablockchain.invoke_function = invoke
 com.atraurablockchain.invoke_args = move,a,b,100
 com.atraurablockchain.query_args = query,b
 ```
+
+
